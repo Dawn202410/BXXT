@@ -1,0 +1,27 @@
+{
+  "name": "property-repair-system",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react-error-boundary": "^4.0.13",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.9.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.3.0",
+    "recharts": "^2.15.1",
+    "sonner": "^2.0.2",
+    "tailwind-merge": "^3.0.2",
+    "zod": "^3.24.2",
+    "xlsx": "^0.18.5",
+    "file-saver": "^2.0.5",
+    "vite": "^5.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite-tsconfig-paths": "^4.2.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  }
+}
