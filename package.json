@@ -3,25 +3,45 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "react-error-boundary": "^4.0.13",
+    "@tailwindcss/vite": "^4.1.8",
+    "@vitejs/plugin-react": "^4.2.1",
     "clsx": "^2.1.1",
+    "file-saver": "^2.0.5",
     "framer-motion": "^12.9.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-error-boundary": "^4.0.13",
     "react-router-dom": "^7.3.0",
     "recharts": "^2.15.1",
     "sonner": "^2.0.2",
     "tailwind-merge": "^3.0.2",
-    "zod": "^3.24.2",
-    "xlsx": "^0.18.5",
-    "file-saver": "^2.0.5",
     "vite": "^5.2.0",
-    "@vitejs/plugin-react": "^4.2.1",
-    "vite-tsconfig-paths": "^4.2.1"
+    "vite-tsconfig-paths": "^4.2.1",
+    "xlsx": "^0.18.5",
+    "zod": "^3.24.2"
   },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
-  }
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8"
+  },
+  "description": "项目编号: 7510338647859249192",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dawn202410/BXXT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dawn202410/BXXT/issues"
+  },
+  "homepage": "https://github.com/Dawn202410/BXXT#readme"
 }
